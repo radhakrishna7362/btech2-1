@@ -1,0 +1,23 @@
+Write a program to create a Circle class with the following members
+Point p;//Point class contains two members double x,y;
+double r;
+String color;
+Date dateCreated;//check Date API
+//methods
+Constructors (private and public)
+Functional Methods
+	//calcArea()
+	//calcPeri()
+	//int compareTwoCircles(Circle c)
+		Returns 0 - overlap
+		Returns 1 - touch externally
+		Returns 2 - disjoint externally
+		Returns -1 - touch internally
+		Returns -2 - disjoint internally
+Circle implements an interface called Comparable
+Go through Comparable interface API and implement body of the method compareTo()
+	//write the body for compareTo()
+	//logic is Circles are compared based on their area
+//Class CircleCollection
+//members - Circle[]
+sort circles in the Array based on increasing order of areas (Arrays.sort(), Collections.sort())

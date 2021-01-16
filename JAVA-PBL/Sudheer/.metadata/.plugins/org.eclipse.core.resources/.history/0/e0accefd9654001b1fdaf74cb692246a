@@ -1,0 +1,11 @@
+package swap;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		swap s=new swap(10,20);
+		swap s1=new swap(10.5,12.5);
+	}
+
+}
